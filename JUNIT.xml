@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="2" time="42.388" timestamp="2023-10-17T19:15:52.943827" hostname="DESKTOP-SBP8OB6"><testcase classname="main" name="test_validate_selected_list_IOS" time="18.646" /><testcase classname="main" name="test_validate_checkout" time="23.389" /></testsuite></testsuites>
