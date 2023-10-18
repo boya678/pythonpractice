@@ -45,5 +45,5 @@ def test_validate_checkout():
     Login(browser).set_password("testingisfun99")
     Login(browser).click_login()
     total_price=Checkout(browser).get_total_price().replace("$", "")
-    assert price in total_price
+    assert price in Checkout(browser).get_total_price().replace("$", "")
     close_browser(browser)
